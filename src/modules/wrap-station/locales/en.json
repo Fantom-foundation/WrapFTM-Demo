@@ -1,0 +1,13 @@
+{
+    "wrapStation": {
+        "mainTitle": "Wrap",
+        "wrapStationForm": {
+            "submit": "Submit",
+            "wrap": "Wrap",
+            "unwrap": "Unwrap",
+            "swapTokens": "Swap Tokens",
+            "from": "From",
+            "to": "To"
+        }
+    }
+}

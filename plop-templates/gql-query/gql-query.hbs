@@ -1,0 +1,28 @@
+import gql from 'graphql-tag';
+import { useVueApolloConnector } from '@/plugins/api-connectors/useVueApolloConnector/useVueApolloConnector.js';
+
+const vueApolloConnector = useVueApolloConnector().vueApolloConnector;
+
+export function get{{ pascalCase name }}({ additionalFields = [], enabled = true } = {}) {
+    return vueApolloConnector.query({
+        query: gql`
+            query Get{{ pascalCase name }} {
+                ${additionalFields.join('\n')}
+            }
+        `,
+        // variables: {},
+        enabled,
+        // defaultData: [],
+        // pickFn: get{{ pascalCase name }}PickFn,
+        mock: {
+            fnName: 'get{{ pascalCase name }}Mock',
+        },
+        options: {
+            clientId: 'default',
+        },
+    });
+}
+
+// export function get{{ pascalCase name }}PickFn(data) {
+//    return data?.foo?.edges.map((edge) => edge.delegation);
+// }

@@ -1,0 +1,34 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`View404 > should match snapshot 1`] = `
+<div
+  class="view404"
+>
+  <div
+    class="fcard view404_message"
+  >
+    
+    <h1
+      class="h3"
+      data-focus="true"
+      tabindex="-1"
+    >
+      
+      Page not found
+      
+    </h1>
+    <p>
+      Looks like you've followed a broken link or entered an URL that doesn't exist on this site.
+    </p>
+    <p>
+      <a
+        class=""
+        href="/"
+      >
+        Back to home
+      </a>
+    </p>
+    
+  </div>
+</div>
+`;

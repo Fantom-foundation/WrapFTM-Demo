@@ -1,0 +1,9 @@
+import { get{{ pascalCase name }}Mock } from './{{ name }}.js';
+
+describe('get{{ pascalCase name }}Mock() mock', () => {
+    it('should return expected outcome', async () => {
+        const result = get{{ pascalCase name }}Mock().data;
+
+        expect(result).toEqual('');
+    });
+});

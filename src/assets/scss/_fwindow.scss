@@ -1,0 +1,49 @@
+:root {
+    .fwindow {
+        //--fwindow-header-padding: var(--f-spacer-3) var(--fwindow-padding);
+        //--fwindow-body-padding: 50px;
+
+        &_header {
+            text-align: center;
+            //border-bottom: 1px solid var(--f-color-grey-3);
+
+            &_title {
+                padding: 0 var(--f-spacer-6);
+            }
+
+            &_leftcontrols {
+                position: absolute;
+                left: var(--f-spacer-4);
+            }
+
+            &_controls {
+                position: absolute;
+                right: var(--f-spacer-4);
+            }
+        }
+
+        &-withheader:not(.fwindow-nobodytoppadding) {
+            .fwindow_body {
+                padding-top: var(--fwindow-padding) !important;
+            }
+        }
+    }
+}
+
+html[dir='rtl'] {
+    .fwindow {
+        &_header {
+            &_leftcontrols {
+                position: absolute;
+                left: unset;
+                right: var(--f-spacer-4);
+            }
+
+            &_controls {
+                position: absolute;
+                right: unset;
+                left: var(--f-spacer-4);
+            }
+        }
+    }
+}

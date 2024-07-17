@@ -1,0 +1,5 @@
+src/assets/app-icons
+public
+dist
+tests/acceptance/resources
+tests/data

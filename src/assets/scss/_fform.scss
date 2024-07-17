@@ -1,0 +1,97 @@
+.input-w100 {
+    width: 100%;
+
+    .finput,
+    .inp {
+        width: 100%;
+    }
+}
+
+.fform {
+    width: 100%;
+
+    &:not(.fform-elemsautowidth) {
+        .fforminput {
+            &_text,
+            &_email,
+            &_number,
+            &_date,
+            &_time,
+            &_textarea,
+            &_select,
+            &_passwordfield,
+            &_listbox,
+            &_dropdownlistbox,
+            &_slider,
+            &_combo-box,
+            &_combobox,
+            &_money-field,
+            &_date-field,
+            &_datetime-field,
+            &_a-price-field,
+            &_datetime-local,
+            &_datetime {
+                //display: block;
+                width: 100%;
+
+                .finput,
+                .fselect,
+                .fdropdownlistbox,
+                .fpasswordfield,
+                .fcombobox,
+                .fdatetimefield {
+                    width: 100%;
+                }
+
+                .inp {
+                    //display: flex;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    &_buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flabel,
+    .fforminput .flabel {
+        display: block;
+        font-size: var(--f-font-size-4);
+        //color: var(--f-color-grey-7);
+        color: var(--f-doc-color);
+        padding-bottom: var(--f-spacer-1);
+    }
+
+    .fmessage-info {
+        color: var(--f-color-grey-5);
+    }
+
+    &.grid {
+        --f-row-gap: var(--f-spacer-5);
+    }
+
+    &_errwithinfo {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .finfotext {
+            display: flex;
+            gap: var(--f-spacer-2);
+        }
+
+        .atokenvalue {
+            gap: var(--f-spacer-1);
+        }
+    }
+}
+
+:root.theme-dark {
+    .inp {
+        --f-input-disabled-border: 1px solid var(--theme-dark-color-5);
+    }
+}

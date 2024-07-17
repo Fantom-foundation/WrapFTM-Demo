@@ -1,0 +1,175 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SocialMediaLinks > should match snapshot 1`] = `
+<section
+  aria-labelledby="smlinksid"
+  class="socialmedialinks"
+>
+  <h2
+    class="not-visible"
+    id="smlinksid"
+  >
+    Social media links
+  </h2>
+  <ul
+    class="linkgroup"
+  >
+    
+    <li>
+      <a
+        aria-label="Fantom on Twitter"
+        data-testcode="linkgroup_link"
+        href="https://twitter.com/FantomFDN"
+        target="_blank"
+      >
+        <span
+          aria-hidden="true"
+          class="fsvgicon fsvgicon-fill"
+          style="width: 32px; height: 32px;"
+        >
+          <span
+            class="fsvgicon-icon"
+            style="transform: rotate();"
+          >
+            
+            <svg
+              height="1em"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+              />
+            </svg>
+            
+          </span>
+        </span>
+        <span
+          class="linkgroup_label"
+        >
+          Twitter
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="Fantom on Telegram"
+        data-testcode="linkgroup_link"
+        href="https://t.me/Fantom_English"
+        target="_blank"
+      >
+        <span
+          aria-hidden="true"
+          class="fsvgicon fsvgicon-fill"
+          style="width: 32px; height: 32px;"
+        >
+          <span
+            class="fsvgicon-icon"
+            style="transform: rotate();"
+          >
+            
+            <svg
+              fill="none"
+              height="28"
+              viewBox="0 0 32 28"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.5565 18.2421L12.0272 25.6876C12.7845 25.6876 13.1126 25.3623 13.5059 24.9716L17.0566 21.5782L24.4142 26.9663C25.7635 27.7184 26.7142 27.3224 27.0782 25.725L31.9077 3.0951L31.909 3.09377C32.337 1.09905 31.1877 0.319036 29.873 0.808381L1.48561 11.6766C-0.451774 12.4287 -0.42244 13.5087 1.15627 13.998L8.41377 16.2554L25.2715 5.70717C26.0649 5.18182 26.7862 5.47249 26.1929 5.99784L12.5565 18.2421Z"
+                fill="white"
+              />
+            </svg>
+            
+          </span>
+        </span>
+        <span
+          class="linkgroup_label"
+        >
+          Telegram
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="Fantom on Reddit"
+        data-testcode="linkgroup_link"
+        href="https://www.reddit.com/r/FantomFoundation/"
+        target="_blank"
+      >
+        <span
+          aria-hidden="true"
+          class="fsvgicon fsvgicon-fill"
+          style="width: 32px; height: 32px;"
+        >
+          <span
+            class="fsvgicon-icon"
+            style="transform: rotate();"
+          >
+            
+            <svg
+              fill="none"
+              height="32"
+              viewBox="0 0 32 32"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M28.4332 12.4105C27.4226 12.4105 26.5332 12.8358 25.8786 13.4985C23.4719 11.8078 20.2266 10.7198 16.6306 10.6038L18.4986 2.0625L24.4466 3.41717C24.4466 4.8945 25.6332 6.10116 27.0892 6.10116C28.5732 6.10116 29.7666 4.8625 29.7666 3.38383C29.7666 1.90517 28.5812 0.666504 27.0906 0.666504C26.0519 0.666504 25.1559 1.3025 24.7092 2.17183L18.1399 0.694504C17.8093 0.605171 17.4853 0.84517 17.3973 1.18117L15.3466 10.5972C11.7786 10.7478 8.56794 11.8345 6.15327 13.5265C5.49861 12.8358 4.57461 12.4105 3.56394 12.4105C-0.185383 12.4105 -1.41338 17.5158 2.01995 19.2611C1.89861 19.8011 1.84395 20.3771 1.84395 20.9518C1.84395 26.6865 8.2106 31.3331 16.0279 31.3331C23.8786 31.3331 30.2452 26.6865 30.2452 20.9518C30.2452 20.3771 30.1852 19.7745 30.0372 19.2331C33.4012 17.4811 32.1626 12.4132 28.4332 12.4105ZM7.46794 19.6238C7.46794 18.1185 8.6546 16.9065 10.1453 16.9065C11.6013 16.9065 12.7893 18.1105 12.7893 19.6238C12.7893 21.1025 11.6026 22.3078 10.1453 22.3078C8.66127 22.3145 7.46794 21.1025 7.46794 19.6238ZM21.9199 26.0211C19.4653 28.5118 12.5386 28.5118 10.0826 26.0211C9.81193 25.7811 9.81193 25.3571 10.0826 25.0838C10.3186 24.8438 10.7373 24.8438 10.9733 25.0838C12.8479 27.0345 19.0666 27.0678 21.0226 25.0838C21.2586 24.8438 21.6772 24.8438 21.9132 25.0838C22.1892 25.3585 22.1892 25.7825 21.9199 26.0211ZM21.8652 22.3131C20.4093 22.3131 19.2226 21.1091 19.2226 19.6318C19.2226 18.1265 20.4093 16.9145 21.8652 16.9145C23.3492 16.9145 24.5426 18.1185 24.5426 19.6318C24.5359 21.1025 23.3492 22.3131 21.8652 22.3131Z"
+                fill="white"
+              />
+            </svg>
+            
+          </span>
+        </span>
+        <span
+          class="linkgroup_label"
+        >
+          Reddit
+        </span>
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="Fantom on Github"
+        data-testcode="linkgroup_link"
+        href="https://github.com/Fantom-Foundation"
+        target="_blank"
+      >
+        <span
+          aria-hidden="true"
+          class="fsvgicon fsvgicon-fill"
+          style="width: 32px; height: 32px;"
+        >
+          <span
+            class="fsvgicon-icon"
+            style="transform: rotate();"
+          >
+            
+            <svg
+              fill="none"
+              height="32"
+              viewBox="0 0 32 32"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 0.666504C7.16 0.666504 0 7.7065 0 16.3892C0 23.3372 4.584 29.2292 10.94 31.3065C11.74 31.4545 12.0333 30.9678 12.0333 30.5505C12.0333 30.1772 12.02 29.1878 12.0133 27.8772C7.56267 28.8252 6.624 25.7678 6.624 25.7678C5.896 23.9532 4.844 23.4678 4.844 23.4678C3.39467 22.4932 4.956 22.5132 4.956 22.5132C6.56267 22.6225 7.40667 24.1332 7.40667 24.1332C8.83333 26.5372 11.152 25.8425 12.0667 25.4412C12.2107 24.4238 12.6227 23.7318 13.08 23.3385C9.52667 22.9452 5.792 21.5932 5.792 15.5692C5.792 13.8532 6.412 12.4505 7.43867 11.3505C7.25867 10.9532 6.71867 9.3545 7.57867 7.18917C7.57867 7.18917 8.91867 6.76784 11.9787 8.80117C13.2587 8.45184 14.6187 8.2785 15.9787 8.2705C17.3387 8.2785 18.6987 8.45184 19.9787 8.80117C23.0187 6.76784 24.3587 7.18917 24.3587 7.18917C25.2187 9.3545 24.6787 10.9532 24.5187 11.3505C25.5387 12.4505 26.1587 13.8532 26.1587 15.5692C26.1587 21.6092 22.4187 22.9385 18.8587 23.3252C19.4187 23.7972 19.9387 24.7612 19.9387 26.2345C19.9387 28.3385 19.9187 30.0292 19.9187 30.5398C19.9187 30.9518 20.1987 31.4438 21.0187 31.2865C27.42 29.2225 32 23.3265 32 16.3892C32 7.7065 24.836 0.666504 16 0.666504Z"
+                fill="white"
+              />
+            </svg>
+            
+          </span>
+        </span>
+        <span
+          class="linkgroup_label"
+        >
+          Github
+        </span>
+      </a>
+    </li>
+    
+  </ul>
+</section>
+`;

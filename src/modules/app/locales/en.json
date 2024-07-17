@@ -1,0 +1,34 @@
+{
+    "app": {
+        "home": "Home",
+        "homeView": {
+            "howToAccessWallet": "How do you want to access your wallet?"
+        },
+        "darkThemeSwitch": {
+            "label": "Dark Theme Switch"
+        },
+        "autoDarkThemeSwitch": {
+            "label": "Auto Dark Theme",
+            "tooltip": "Sets the dark theme according to the system settings"
+        },
+        "textDirectionSwitch": {
+            "label": "Right-to-left Direction"
+        },
+        "settingsButton": {
+            "settings": "Settings"
+        },
+        "socialMediaLinks": {
+            "socialMediaLinks": "Social media links",
+            "twitter": "Twitter",
+            "fantomOnTwitter": "Fantom on Twitter",
+            "discord": "Discord",
+            "fantomOnDiscord": "Fantom on Discord",
+            "telegram": "Telegram",
+            "fantomOnTelegram": "Fantom on Telegram",
+            "reddit": "Reddit",
+            "fantomOnReddit": "Fantom on Reddit",
+            "github": "Github",
+            "fantomOnGithub": "Fantom on Github"
+        }
+    }
+}

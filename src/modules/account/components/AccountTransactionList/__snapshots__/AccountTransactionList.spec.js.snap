@@ -1,0 +1,647 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AccountTransactionList > should match snapshot 1`] = `
+<div
+  addressurl="https://ftmscan.com/address/"
+  class="fdatagrid fdatagrid-stickyheader fdatagrid-infinitescrollon fdatagrid-noheader accounttransactionlist"
+>
+  <!--v-if-->
+  <div
+    class="fdatagrid_table"
+  >
+    <table
+      role="grid"
+    >
+      <!--v-if-->
+      <thead
+        class="fdatagrid_thead"
+      >
+        <tr>
+          
+          <th
+            class="_c0  fdatagrid_firstcell"
+          >
+            <div
+              class="fdatagrid_thead_cellin"
+            >
+              Status
+            </div>
+          </th>
+          <th
+            class="_c1"
+          >
+            <div
+              class="fdatagrid_thead_cellin"
+            >
+              Time
+            </div>
+          </th>
+          <th
+            class="_c2"
+          >
+            <div
+              class="fdatagrid_thead_cellin"
+            >
+              Address
+            </div>
+          </th>
+          <th
+            class="_c3  fdatagrid_lastcell"
+          >
+            <div
+              class="fdatagrid_thead_cellin"
+            >
+              Amount (FTM)
+            </div>
+          </th>
+          
+        </tr>
+      </thead>
+      <tbody
+        class="finfinitescroll"
+      >
+        <tr
+          class="fintersectionobserver"
+          style="display: none;"
+        >
+          
+          
+          <td
+            colspan="4"
+          >
+            
+            <div
+              class="tea-center"
+            >
+              <span
+                class="fdotsloader"
+              >
+                <span />
+                <span />
+                <span />
+              </span>
+            </div>
+            
+          </td>
+          
+          
+        </tr>
+        
+        
+        
+        <tr
+          aria-rowindex="1"
+          class=""
+          data-testcode="fdatagrid-row"
+        >
+          
+          <td
+            class="_c0  fdatagrid_firstcell"
+            data-label="Status"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <span
+                class="accounttransactionlist_status accounttransactionlist_status-success"
+              >
+                Success
+              </span>
+              
+              
+            </div>
+          </td>
+          <td
+            class="_c1"
+            data-label="Time"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <a
+                class="flink"
+                data-type="transaction"
+                href="https://ftmscan.com/tx/0x39852eca227233345f541691124ad91d30800534035dea0e67a57627652acbb2"
+                target="_blank"
+              >
+                
+                
+                9/19/2022, 4:50 PM
+                
+                
+              </a>
+              
+              
+            </div>
+          </td>
+          <td
+            class="_c2"
+            data-label="Address"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <a
+                class="flink"
+                data-type="address"
+                href="https://ftmscan.com/address/0xb8CE9ab6943e0eCED004cDe8e3bBed6568B2Fa01"
+                target="_blank"
+              >
+                
+                <span
+                  class="fellipsis overflow-middle"
+                >
+                  <span
+                    class="fellipsis_prefix"
+                  >
+                    
+                    
+                  </span>
+                  
+                  <span
+                    class="left-chars"
+                  >
+                    0xb8CE9ab6943e0eCED004cDe8e3bBed6568B
+                  </span>
+                  <span
+                    class="right-chars"
+                  >
+                    2Fa01
+                  </span>
+                  
+                  <span
+                    class="fellipsis_suffix"
+                  >
+                    
+                    
+                  </span>
+                </span>
+                
+              </a>
+              
+              
+            </div>
+          </td>
+          <td
+            class="_c3  fdatagrid_lastcell"
+            data-label="Amount (FTM)"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <span
+                class="accounttransactionlist_amount"
+              >
+                0
+              </span>
+              
+              
+            </div>
+          </td>
+          
+        </tr>
+        
+        
+        
+        
+        <tr
+          aria-rowindex="2"
+          class=""
+          data-testcode="fdatagrid-row"
+        >
+          
+          <td
+            class="_c0  fdatagrid_firstcell"
+            data-label="Status"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <span
+                class="accounttransactionlist_status accounttransactionlist_status-fail"
+              >
+                Fail
+              </span>
+              
+              
+            </div>
+          </td>
+          <td
+            class="_c1"
+            data-label="Time"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <a
+                class="flink"
+                data-type="transaction"
+                href="https://ftmscan.com/tx/0x40852eca227233345f541691124ad91d30800534035dea0e67a57627652acbb2"
+                target="_blank"
+              >
+                
+                
+                9/12/2022, 5:21 PM
+                
+                
+              </a>
+              
+              
+            </div>
+          </td>
+          <td
+            class="_c2"
+            data-label="Address"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <a
+                class="flink"
+                data-type="address"
+                href="https://ftmscan.com/address/0xb8CE9ab6943e0eCED004cDe8e3bBed6568B2Fa01"
+                target="_blank"
+              >
+                
+                <span
+                  class="fellipsis overflow-middle"
+                >
+                  <span
+                    class="fellipsis_prefix"
+                  >
+                    
+                    
+                  </span>
+                  
+                  <span
+                    class="left-chars"
+                  >
+                    0xb8CE9ab6943e0eCED004cDe8e3bBed6568B
+                  </span>
+                  <span
+                    class="right-chars"
+                  >
+                    2Fa01
+                  </span>
+                  
+                  <span
+                    class="fellipsis_suffix"
+                  >
+                    
+                    
+                  </span>
+                </span>
+                
+              </a>
+              
+              
+            </div>
+          </td>
+          <td
+            class="_c3  fdatagrid_lastcell"
+            data-label="Amount (FTM)"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <span
+                class="accounttransactionlist_amount"
+              >
+                -123.46
+              </span>
+              
+              
+            </div>
+          </td>
+          
+        </tr>
+        
+        
+        
+        
+        <tr
+          aria-rowindex="3"
+          class=""
+          data-testcode="fdatagrid-row"
+        >
+          
+          <td
+            class="_c0  fdatagrid_firstcell"
+            data-label="Status"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <span
+                class="accounttransactionlist_status"
+              >
+                Pending
+              </span>
+              
+              
+            </div>
+          </td>
+          <td
+            class="_c1"
+            data-label="Time"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <a
+                class="flink"
+                data-type="transaction"
+                href="https://ftmscan.com/tx/0x80852eca227233345f541691124ad91d30800534035dea0e67a57627652acbb2"
+                target="_blank"
+              >
+                
+                
+                9/12/2022, 5:21 PM
+                
+                
+              </a>
+              
+              
+            </div>
+          </td>
+          <td
+            class="_c2"
+            data-label="Address"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <a
+                class="flink"
+                data-type="address"
+                href="https://ftmscan.com/address/0xb8CE9ab6943e0eCED004cDe8e3bBed6568B2Fa01"
+                target="_blank"
+              >
+                
+                <span
+                  class="fellipsis overflow-middle"
+                >
+                  <span
+                    class="fellipsis_prefix"
+                  >
+                    
+                    
+                  </span>
+                  
+                  <span
+                    class="left-chars"
+                  >
+                    0xb8CE9ab6943e0eCED004cDe8e3bBed6568B
+                  </span>
+                  <span
+                    class="right-chars"
+                  >
+                    2Fa01
+                  </span>
+                  
+                  <span
+                    class="fellipsis_suffix"
+                  >
+                    
+                    
+                  </span>
+                </span>
+                
+              </a>
+              
+              
+            </div>
+          </td>
+          <td
+            class="_c3  fdatagrid_lastcell"
+            data-label="Amount (FTM)"
+            tabindex="-1"
+          >
+            <div
+              class="fdatagrid_cellin"
+            >
+              
+              <!-- @slot Dynamic slot for cells -->
+              
+              <span
+                class="accounttransactionlist_amount accounttransactionlist_amount-highligted"
+              >
+                +1.00
+              </span>
+              
+              
+            </div>
+          </td>
+          
+        </tr>
+        
+        
+        
+        
+        
+        <tr
+          class="fintersectionobserver"
+          style="display: none;"
+        >
+          
+          
+          <td
+            colspan="4"
+          >
+            
+            <div
+              class="tea-center"
+            >
+              <span
+                class="fdotsloader"
+              >
+                <span />
+                <span />
+                <span />
+              </span>
+            </div>
+            
+          </td>
+          
+          
+        </tr>
+        <div
+          class="fpagination"
+          hidden=""
+          style="display: none;"
+        >
+          <ul
+            aria-label="Pagination navigation"
+            class="fpagination_body"
+          >
+            <li
+              class="fpagination_item"
+              data-item-type="first"
+            >
+              <!--
+                    @slot Slot for buttons
+                    @binding {string} label
+                    @binding {string} title
+                    @binding {boolean} disabled
+                    @binding {('first'|'prev'|'next'|'last')} type
+                -->
+              
+              <button
+                class="fbutton btn btn-tertiary btn-round btn-samesize"
+                disabled=""
+                title="Go to first page"
+                type="button"
+              >
+                <span
+                  class="fbutton_label"
+                >
+                  
+                  «
+                  
+                </span>
+              </button>
+              
+            </li>
+            <li
+              class="fpagination_item"
+              data-item-type="prev"
+            >
+              
+              <button
+                class="fbutton btn btn-tertiary btn-round btn-samesize"
+                disabled=""
+                title="Go to previous page"
+                type="button"
+              >
+                <span
+                  class="fbutton_label"
+                >
+                  
+                  ‹
+                  
+                </span>
+              </button>
+              
+            </li>
+            <li
+              class="fpagination_pages"
+            >
+              <!--
+                    @slot Pages info slot
+                    @binding {FPaginationState} state
+                -->
+              
+              
+              <span>
+                -
+              </span>
+              
+              
+            </li>
+            <li
+              class="fpagination_item"
+              data-item-type="next"
+            >
+              
+              <button
+                class="fbutton btn btn-tertiary btn-round btn-samesize"
+                disabled=""
+                title="Go to next page"
+                type="button"
+              >
+                <span
+                  class="fbutton_label"
+                >
+                  
+                  ›
+                  
+                </span>
+              </button>
+              
+            </li>
+            <li
+              class="fpagination_item"
+              data-item-type="last"
+            >
+              
+              <button
+                class="fbutton btn btn-tertiary btn-round btn-samesize"
+                disabled=""
+                title="Go to last page"
+                type="button"
+              >
+                <span
+                  class="fbutton_label"
+                >
+                  
+                  
+                  »
+                  
+                  
+                </span>
+              </button>
+              
+            </li>
+          </ul>
+        </div>
+      </tbody>
+      <!--v-if-->
+    </table>
+    
+    <!--v-if-->
+    
+  </div>
+  <div
+    class="fdatagrid_footer"
+  >
+    <!--v-if-->
+  </div>
+  <div
+    style="display: none;"
+  />
+</div>
+`;

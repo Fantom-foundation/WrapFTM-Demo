@@ -1,0 +1,41 @@
+:root:not(.touch-device) {
+    --scrollbar-width: 6px;
+    --scrollbar-background-color: #f1f1f1;
+    --scrollbar-thumb-color: #888;
+    --scrollbar-thumb-hover-color: #555;
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: var(--scrollbar-width);
+        height: var(--scrollbar-width);
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: var(--scrollbar-background-color);
+        border-radius: var(--scrollbar-width);
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: var(--scrollbar-thumb-color);
+        border-radius: var(--scrollbar-width);
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--scrollbar-thumb-hover-color);
+    }
+
+    /*
+    .touch-device {
+        --scrollbar-width: 2px;
+    }
+    */
+
+    &.theme-dark {
+        --scrollbar-background-color: #212121;
+        --scrollbar-thumb-color: #5c5c5c;
+        --scrollbar-thumb-hover-color: #9c9c9c;
+    }
+}

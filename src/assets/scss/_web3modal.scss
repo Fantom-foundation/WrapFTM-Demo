@@ -1,0 +1,10 @@
+w3m-modal {
+    background: rgba(28, 33, 50, 0.8);
+    backdrop-filter: blur(4px);
+}
+
+:root.theme-dark {
+    w3m-modal {
+        background: rgba(80, 80, 80, 0.3);
+    }
+}

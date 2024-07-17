@@ -1,0 +1,18 @@
+@forward '~fantom-vue3-components/src/assets/scss/settings' with (
+        //$breakpoint-sm: 36em !default;
+        $breakpoint-md: 970px,
+        $breakpoint-lg: 1184px,
+        $breakpoint-xl: 1428px,
+
+        /*$custom-colors: (
+        'primary': (
+            'hsl': 219 100% 55%,
+            'lightness': 99% 96% 92% 73% 40% 30% 20% 13%,
+        ),
+        'grey': (
+            //"hsl": 240 20% 50%,
+            'hsl': 0 0% 50%,
+            'lightness': 99% 96% 89% 73% 40% 30% 20% 10%,
+        ),
+    )*/
+    );

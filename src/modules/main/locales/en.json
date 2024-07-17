@@ -1,0 +1,12 @@
+{
+    "main": {
+        "view404": {
+            "title": "Page not found",
+            "text": "Looks like you've followed a broken link or entered an URL that doesn't exist on this site.",
+            "linkTitle": "Back to home"
+        },
+        "underMaintenance": {
+            "text": "Under maintenance"
+        }
+    }
+}

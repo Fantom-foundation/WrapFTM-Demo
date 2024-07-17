@@ -1,0 +1,16 @@
+import { useVueRpcConnector } from '@/plugins/api-connectors/useVueRpcConnector/useVueRpcConnector.js';
+
+const vueRpcConnector = useVueRpcConnector().vueRpcConnector;
+
+export function {{ camelCase name }}({ arg } = {}) {
+    return vueRpcConnector.mutation({
+        async query({ variables, getContract, options, jsonRpcProvider }) {
+            return getContract(variabels.contract, 'erc20').foo(variables.arg);
+        },
+        variables: { arg },
+        // defaultData: [],
+        mock: {
+            fnName: '{{ camelCase name }}Mock',
+        },
+    });
+}

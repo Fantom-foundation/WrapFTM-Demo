@@ -1,0 +1,19 @@
+import { mount } from '@vue/test-utils';
+import { destroyWrapper } from 'fantom-vue3-components/src/test/utils.js';
+import {{ name }} from './{{ name }}.vue';
+
+let wrapper = null;
+
+function createWrapper(options = {}) {
+    return mount({{ name }}, options);
+}
+
+afterEach(() => {
+    destroyWrapper(wrapper);
+});
+
+describe('{{ name }}', () => {
+    it.todo('should', () => {
+        wrapper = createWrapper();
+    });
+});

@@ -1,0 +1,23 @@
+{
+    "common": {
+        "goBack": "Go back",
+        "addressField": {
+            "invalidAddressErrMessage": "Invalid address",
+            "invalidAddressErrMessage_bkp": "Invalid address or domain name"
+        },
+        "tokenAmountField": {
+            "max": "Max",
+            "maximumAmountReached": "Maximum amount reached",
+            "invalidAmount": "Invalid amount"
+        },
+        "transactionStatus": {
+            "pending": "Pending",
+            "success": "Success",
+            "error": "Error",
+            "rejected": "Rejected"
+        },
+        "tokenListWindow": {
+            "title": "Select Token"
+        }
+    }
+}

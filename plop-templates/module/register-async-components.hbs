@@ -1,0 +1,8 @@
+import { AsyncComponents } from 'fantom-vue3-components';
+import { defineAsyncComponent } from 'vue';
+
+AsyncComponents.registerComponents({
+    FooComponent: defineAsyncComponent(() =>
+        import('./FooComponent/FooComponent.vue')
+    ),
+});

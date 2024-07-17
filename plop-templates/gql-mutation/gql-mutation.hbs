@@ -1,0 +1,27 @@
+import gql from 'graphql-tag';
+import { useVueApolloConnector } from '@/plugins/api-connectors/useVueApolloConnector/useVueApolloConnector.js';
+
+const vueApolloConnector = useVueApolloConnector().vueApolloConnector;
+
+export function {{ camelCase name }}({ arg } = {}) {
+    return vueApolloConnector.mutation({
+        mutation: gql`
+            mutation {{ pascalCase name }}($arg: Bytes!) {
+                {{ camelCase name }}(arg: $arg) {
+                }
+            }
+        `,
+        variables: { arg },
+        // pickFn: {{ camelCase name }}PickFn,
+        mock: {
+            fnName: '{{ camelCase name }}Mock',
+        },
+        options: {
+            clientId: 'default',
+        },
+    });
+}
+
+// export function {{ camelCase name }}PickFn(data) {
+//     return data?.{{ camelCase name }}?.foo;
+// }

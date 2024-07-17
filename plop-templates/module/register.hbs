@@ -1,0 +1,19 @@
+import { Modules } from '@/utils/Modules/Modules.js';
+import './api/register.js';
+// import './components/register-async-components.js';
+
+Modules.registerModule('{{ lowerCase name }}', {
+    locales: {
+        en: async () => import('./locales/en.json'),
+    },
+    api: {
+        mocks: async () => import('./api/register-mock.js'),
+    },
+    // playgroundComponents: async () => {
+    // const playgroundComponents = await import('./components/playground.js');
+    //
+    // return playgroundComponents.default;
+    // },
+    // testAsyncComponents: async () =>
+    //     import('./components/register-test-async-components.js'),
+});

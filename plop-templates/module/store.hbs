@@ -1,0 +1,14 @@
+import { defineStore } from 'pinia';
+import { StoreUtils } from 'fantom-vue3-components/src/utils/StoreUtils/StoreUtils.js';
+import { appConfig } from '@/config/app-config.js';
+
+export const {{ camelCase name }}StoreUtils = new StoreUtils(`${appConfig.code}-app`);
+
+export const use{{ pascalCase name }}Store = defineStore('{{ lowerCase name }}', {
+    state: () => {
+        return {
+            ...{{ camelCase name }}StoreUtils.useInLocalStorage('foo', ''),
+        };
+    },
+    // actions: {},
+});

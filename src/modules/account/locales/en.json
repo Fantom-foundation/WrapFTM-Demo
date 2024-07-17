@@ -1,0 +1,39 @@
+{
+    "account": {
+        "removeAccountConfirmation": {
+            "text": "Are you sure you want to remove account"
+        },
+        "removeAccountConfirmationWindow": {
+            "label": "Remove Account"
+        },
+        "accountList": {
+            "accountList": "Account List",
+            "account": "Account",
+            "remove": "Remove Account"
+        },
+        "accountInfo": {
+            "availableBalance": "Available",
+            "delegated": "Delegated",
+            "pendingRewards": "Pending Rewards"
+        },
+        "transactionList": {
+            "status": "Status",
+            "time": "Time",
+            "address": "Address",
+            "amount": "Amount",
+            "pending": "Pending",
+            "fail": "Fail",
+            "success": "Success"
+        },
+        "assetList": {
+            "asset": "Asset",
+            "available": "Available",
+            "deposited": "Deposited",
+            "borrowed": "Borrowed"
+        },
+        "accountAddedSuccessfully": "The account has been added successfully",
+        "accountRemovedSuccessfully": "The account has been removed successfully",
+        "remove": "Remove",
+        "cancel": "Cancel"
+    }
+}

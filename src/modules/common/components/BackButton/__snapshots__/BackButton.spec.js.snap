@@ -1,0 +1,48 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BackButton > should match snapshot 1`] = `
+<button
+  class="fbutton btn btn-tertiary btn-round btn-samesize"
+  title="Go back"
+  type="button"
+>
+  <span
+    class="fbutton_label"
+  >
+    
+    <span
+      aria-hidden="true"
+      class="fsvgicon fsvgicon-fill fsvgicon-rtl-mirror"
+      style="width: 16px; height: 16px;"
+    >
+      <span
+        class="fsvgicon-icon"
+        style="transform: rotate();"
+      >
+        
+        <svg
+          height="15.995"
+          viewBox="0 0 16 15.995"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            data-name="Component 3 – 5"
+            id="Component_3_5"
+            transform="translate(16) rotate(90)"
+          >
+            <path
+              d="M30.677,19.406a.985.985,0,0,0-1.395,0L23.868,24.82v-11.6a.993.993,0,1,0-1.978,0v11.5l-5.257-5.264a.993.993,0,0,0-1.4,1.4l7,7a1.009,1.009,0,0,0,1.4,0L30.677,20.8a.985.985,0,0,0,0-1.395Z"
+              data-name="Path 4"
+              id="Path_4"
+              transform="translate(-14.971 -12.138)"
+            />
+          </g>
+        </svg>
+        
+      </span>
+    </span>
+    
+  </span>
+</button>
+`;

@@ -1,0 +1,35 @@
+{
+    "wallet": {
+        "walletPickerWindow": {
+            "label": "Connect to a wallet"
+        },
+        "logoutConfirmation": {
+            "text": "Are you sure you want to logout? All software wallets will be removed."
+        },
+        "walletList": {
+            "walletList": "Wallet List"
+        },
+        "walletButton": {
+            "activeAccount": "Active Account",
+            "connectWallet": "Připojit peněženku"
+        },
+        "addingExistingAccountWarningWindow": {
+            "messagePart1": "Account ",
+            "messagePart2": " is already in your account list. Please, select another one."
+        },
+        "badChainWarningWindow": {
+            "switchChainMessage": "Wrong network selected. Please change your network to {chainName} to continue",
+            "addChainMessage": "You need to add {chainName} chain to Metamask"
+        },
+        "addChainButton": {
+            "add": "Add {chainName} chain",
+            "switch": "Switch to {chainName} chain"
+        },
+        "addTokenButton": {
+            "add": "Add {tokenName} to Metamask"
+        },
+        "logout": "Logout",
+        "cancel": "Cancel",
+        "notification": "Notification"
+    }
+}

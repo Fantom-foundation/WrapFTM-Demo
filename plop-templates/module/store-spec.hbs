@@ -1,0 +1,18 @@
+import { use{{ pascalCase name }}Store } from './store.js';
+
+let store = null;
+
+beforeEach(() => {
+    store = use{{ pascalCase name }}Store();
+});
+
+afterEach(() => {
+    store.$reset();
+    store = null;
+});
+
+describe('{{ name }} store', () => {
+    it('should have correct default values', () => {
+        expect(store.foo).toEqual('');
+    });
+});

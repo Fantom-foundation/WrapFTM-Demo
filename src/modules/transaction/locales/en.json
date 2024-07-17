@@ -1,0 +1,33 @@
+{
+    "transaction": {
+        "gasFields": {
+            "gasPriceLabel": "Gas Price (GWEI)",
+            "gasLimitLabel": "Gas Limit",
+            "errorMessage": "Value should be greater than zero"
+        },
+        "maxFee": {
+            "label": "Max Fee"
+        },
+        "sendTransactionForm": {
+            "passwordLabel": "Please enter your wallet password",
+            "required": "Required",
+            "reject": "Reject",
+            "amount": "Amount"
+        },
+        "transactionNotification": {
+            "transactionHash": "Transaction hash"
+        },
+        "recentTransactionList": {
+            "recentTransactions": "Recent transactions",
+            "noTransactions": "No recent transactions"
+        },
+        "transactionVerificationPlayground": {
+            "pollNonce": "Poll Tx Count",
+            "pollReceipt": "Poll Tx Receipt",
+            "subscribeToEvent": "Subscribe To An Event",
+            "queryLog": "Query Log"
+        },
+        "confirm": "Confirm",
+        "submit": "Submit"
+    }
+}

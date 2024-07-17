@@ -1,0 +1,68 @@
+@use '~fantom-vue3-components/src/assets/scss/components/button/tools' as
+    btnTools;
+
+.buttongroup {
+    display: flex;
+    gap: var(--f-spacer-2);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .btn {
+        --f-btn-gap: 0;
+    }
+}
+
+:root {
+    @include btnTools.button() {
+        --f-btn-border-radius: var(--f-border-radius-2);
+        --f-btn-lg-border-radius: var(--f-border-radius-2);
+        --f-btn-sm-border-radius: var(--f-border-radius-2);
+        --f-btn-xs-border-radius: var(--f-border-radius-2);
+        --f-btn-font-weight: 700;
+
+        &-tertiary {
+            //--f-btn-main-color: var(--f-color-grey-5);
+            //--f-btn-color: var(--f-doc-color);
+            --f-btn-hover-color: var(--f-btn-main-color);
+            --f-btn-hover-background: hsla(
+                            var(--f-color-blue-h),
+                            var(--f-color-blue-l),
+                            var(--f-color-blue-s),
+                            0.5
+            );
+            --f-btn-hover-border-color: transparent;
+            //--f-btn-hover-background: var(--f-color-primary-3);
+
+            &:hover,
+            &:focus,
+            &:active {
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+:root.theme-dark {
+    @include btnTools.button() {
+        --f-btn-background: var(--f-color-primary-6);
+        --f-btn-hover-background: var(--f-color-primary-5);
+
+        &-secondary:not(.btn-red):not(.btn-green):not(.btn-orange):not(
+                .btn-grey
+            ):not(.btn-light) {
+            --f-btn-hover-background: var(--main-hover-color);
+            --f-btn-secondary-border-color: var(--f-color-primary-6);
+            --f-btn-hover-border-color: var(--f-color-primary-5);
+        }
+
+        &-tertiary {
+            --f-btn-hover-background: var(--main-hover-color);
+        }
+
+        &-quaternary {
+            --f-btn-quaternary-background: var(--main-hover-color);
+            --f-btn-hover-background: var(--main-hover-color2);
+        }
+    }
+}

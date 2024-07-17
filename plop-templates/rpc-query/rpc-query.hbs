@@ -1,0 +1,17 @@
+import { useVueRpcConnector } from '@/plugins/api-connectors/useVueRpcConnector/useVueRpcConnector.js';
+
+const vueRpcConnector = useVueRpcConnector().vueRpcConnector;
+
+export function get{{ pascalCase name }}({ enabled = true } = {}) {
+    return vueRpcConnector.query({
+        async query({ variables, getContract, options, jsonRpcProvider }) {
+            return getContract(variables.contract, 'erc20').foo(variables.boo);
+        },
+        // variables: {},
+        enabled,
+        // defaultData: [],
+        mock: {
+            fnName: 'get{{ pascalCase name }}Mock',
+        },
+    });
+}

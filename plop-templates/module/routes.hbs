@@ -1,0 +1,10 @@
+import { Tree } from 'fantom-vue3-components';
+import { {{ upperCase (snakeCase name) }}_APP_STRUCTURE } from './app-structure.js';
+
+const {{ camelCase name }}Structure = new Tree({{ upperCase (snakeCase name) }}_APP_STRUCTURE(), {
+    idPropertyName: 'name',
+});
+
+export function {{ upperCase (snakeCase name) }}_ROUTES() {
+    return [{{ camelCase name }}Structure.getNode('{{ lowerCase name }}')];
+}

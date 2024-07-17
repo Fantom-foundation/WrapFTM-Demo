@@ -1,0 +1,35 @@
+//@use '~fantom-vue3-components/src/assets/scss/settings';
+@use 'settings';
+@use 'custom-properties';
+@use '~fantom-vue3-components/src/assets/scss/themes/dark';
+@use '~fantom-vue3-components/src/assets/scss/generic';
+@use '~fantom-vue3-components/src/assets/scss/elements';
+@use '~fantom-vue3-components/src/assets/scss/layouts';
+@use '~fantom-vue3-components/src/assets/scss/components/list';
+//@use "~fantom-vue3-components/src/assets/scss/utilities/align";
+
+@use 'links';
+@use 'grid';
+@use 'fform';
+@use 'fwindow';
+@use 'buttons';
+@use 'fdetails';
+@use 'fnotifications';
+@use 'fdatagrid';
+@use 'foverlay';
+@use 'scrollbar';
+@use 'view-transitions';
+@use 'focus';
+@use 'web3modal';
+
+@use '~fantom-vue3-components/src/assets/scss/utilities';
+@use 'dark-theme-custom-properties';
+
+.container {
+    --f-container-max-width: 1250px;
+}
+
+.number {
+    font-family: sans-serif;
+    font-variant-numeric: tabular-nums;
+}
