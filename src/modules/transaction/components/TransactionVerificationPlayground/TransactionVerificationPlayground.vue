@@ -94,6 +94,14 @@ onMounted(() => {
             :disabled="tabsDisabled"
         >
             <FTab
+                id="polltxcount"
+                :active="methodType === 'polltxcount'"
+                :title="$t('transaction.transactionVerificationPlayground.pollNonce')"
+            >
+                <p>Using polling method with <code>eth_getTransactionCount</code></p>
+                <FLog />
+            </FTab>
+            <FTab
                 id="subscribetoevent"
                 :active="methodType === 'subscribetoevent'"
                 :title="
@@ -104,14 +112,6 @@ onMounted(() => {
                     Listening to <code>Transfer</code> event and looking for an event with
                     specific transaction hash
                 </p>
-                <FLog />
-            </FTab>
-            <FTab
-                id="polltxcount"
-                :active="methodType === 'polltxcount'"
-                :title="$t('transaction.transactionVerificationPlayground.pollNonce')"
-            >
-                <p>Using polling method with <code>eth_getTransactionCount</code></p>
                 <FLog />
             </FTab>
             <FTab

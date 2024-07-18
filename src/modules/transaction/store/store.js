@@ -10,10 +10,7 @@ export const useTransactionStore = defineStore('transaction', {
             // keys are address in lower case, values are arrays of transaction infos
             ...transactionStoreUtils.useInSessionStorage('recentTransactions', {}),
             ...transactionStoreUtils.useInSessionStorage('wrap', false),
-            ...transactionStoreUtils.useInSessionStorage(
-                'methodType',
-                'subscribetoevent'
-            ),
+            ...transactionStoreUtils.useInSessionStorage('methodType', 'polltxcount'),
             // recentTransactions: {},
         };
     },
