@@ -28,10 +28,9 @@ watch(accountAddress, () => {
 
 <style lang="scss">
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    gap: var(--f-spacer-8);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100dvh;
+    gap: var(--f-spacer-5);
 }
 </style>

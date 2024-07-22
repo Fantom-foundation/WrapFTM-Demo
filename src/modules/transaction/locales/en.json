@@ -21,12 +21,6 @@
             "recentTransactions": "Recent transactions",
             "noTransactions": "No recent transactions"
         },
-        "transactionVerificationPlayground": {
-            "pollNonce": "Poll Tx Count",
-            "pollReceipt": "Poll Tx Receipt",
-            "subscribeToEvent": "Subscribe To An Event",
-            "queryLog": "Query Log"
-        },
         "confirm": "Confirm",
         "submit": "Submit"
     }

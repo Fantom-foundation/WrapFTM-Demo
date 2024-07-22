@@ -1,7 +1,7 @@
 import { rpcProvider } from '@/config/api/rpc';
 import { ethers } from 'ethers';
 import { wftmAbi } from '@/config/api/abi/wftmAbi';
-import { Log } from '@/modules/transaction/components/FLog/Log';
+import { Log } from '@/modules/wrap-station/components/FLog/Log';
 import { delay } from 'fantom-vue3-components';
 import { WFTM_TOKEN } from '@/config/tokens';
 

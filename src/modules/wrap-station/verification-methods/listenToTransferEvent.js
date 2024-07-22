@@ -2,7 +2,7 @@ import { ethers } from 'ethers';
 import { chains } from '@/config/chains';
 import { wftmAbi } from '@/config/api/abi/wftmAbi';
 import { WFTM_TOKEN } from '@/config/tokens';
-import { Log } from '@/modules/transaction/components/FLog/Log';
+import { Log } from '@/modules/wrap-station/components/FLog/Log';
 
 let wftmContract = null;
 let txHash = '';

@@ -1,4 +1,4 @@
-import { Log } from '@/modules/transaction/components/FLog/Log';
+import { Log } from '@/modules/wrap-station/components/FLog/Log';
 import { delay } from 'fantom-vue3-components';
 import { useFApi } from '@/plugins/api-connectors/FApi/useFApi/useFApi';
 

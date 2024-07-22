@@ -8,6 +8,12 @@
             "swapTokens": "Swap Tokens",
             "from": "From",
             "to": "To"
+        },
+        "wrapStation": {
+            "pollNonce": "Poll Tx Count",
+            "pollReceipt": "Poll Tx Receipt",
+            "subscribeToEvent": "Subscribe To An Event",
+            "queryLog": "Query Log"
         }
     }
 }

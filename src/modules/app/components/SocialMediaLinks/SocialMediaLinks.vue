@@ -24,7 +24,7 @@ import LinkGroup from '@/modules/common/components/LinkGroup/LinkGroup.vue';
     .linkgroup {
         display: flex;
         justify-content: space-between;
-        margin-top: calc(var(--f-spacer-9) + var(--f-spacer-5));
+        //margin-top: calc(var(--f-spacer-6) + var(--f-spacer-5));
         //margin-top: var(--f-spacer-9);
         //border-top: 1px solid var(--f-color-grey-3);
         padding: var(--f-spacer-7) 0;
